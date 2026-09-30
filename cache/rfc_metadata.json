@@ -1,0 +1,559 @@
+{
+  "ZDSH_LOGIN": {
+    "metadata": {
+      "_metadata": {
+        "function_name": "ZDSH_LOGIN",
+        "description": "DSH Login",
+        "area": "ZDSH_FG",
+        "application": "",
+        "dev_class": "ZDSH",
+        "release_date": "00000000",
+        "last_changed": ""
+      },
+      "_language": "EN",
+      "_retrieved_at": "EN",
+      "inputs": {
+        "I_USERID": {
+          "sap_type": "C",
+          "length": 40,
+          "decimals": 0,
+          "description": "User ID",
+          "type": "CHAR(40)",
+          "data_element": "CHAR20"
+        },
+        "I_PASSWORD": {
+          "sap_type": "g",
+          "length": 0,
+          "decimals": 0,
+          "type": "ANY",
+          "data_element": "STRING",
+          "description": "Password"
+        }
+      },
+      "outputs": {
+        "E_USERNAME": {
+          "sap_type": "C",
+          "length": 40,
+          "decimals": 0,
+          "description": "User Name",
+          "type": "CHAR(40)",
+          "data_element": "CHAR20"
+        }
+      },
+      "tables": {
+        "ET_RETURN": {
+          "sap_type": "u",
+          "length": 1088,
+          "decimals": 0,
+          "type": "TABLE",
+          "table_structure": {
+            "TYPE": {
+              "type": "CHAR(1)",
+              "sap_type": "C",
+              "length": 1,
+              "decimals": 0,
+              "position": 1,
+              "description": "Message type: S Success, E Error, W Warning, I Info, A Abort",
+              "key_field": false,
+              "data_element": "BAPI_MTYPE",
+              "domain": "SYCHAR01",
+              "check_table": ""
+            },
+            "ID": {
+              "type": "CHAR(20)",
+              "sap_type": "C",
+              "length": 20,
+              "decimals": 0,
+              "position": 2,
+              "description": "Message Class",
+              "key_field": false,
+              "data_element": "SYMSGID",
+              "domain": "ARBGB",
+              "check_table": "T100A"
+            },
+            "NUMBER": {
+              "type": "NUMC(3)",
+              "sap_type": "N",
+              "length": 3,
+              "decimals": 0,
+              "position": 3,
+              "description": "Message Number",
+              "key_field": false,
+              "data_element": "SYMSGNO",
+              "domain": "SYMSGNO",
+              "check_table": ""
+            },
+            "MESSAGE": {
+              "type": "CHAR(220)",
+              "sap_type": "C",
+              "length": 220,
+              "decimals": 0,
+              "position": 4,
+              "description": "Message Text",
+              "key_field": false,
+              "data_element": "BAPI_MSG",
+              "domain": "TEXT220",
+              "check_table": ""
+            },
+            "LOG_NO": {
+              "type": "CHAR(20)",
+              "sap_type": "C",
+              "length": 20,
+              "decimals": 0,
+              "position": 5,
+              "description": "Application log: log number",
+              "key_field": false,
+              "data_element": "BALOGNR",
+              "domain": "BALOGNR",
+              "check_table": "BALHDR"
+            },
+            "LOG_MSG_NO": {
+              "type": "NUMC(6)",
+              "sap_type": "N",
+              "length": 6,
+              "decimals": 0,
+              "position": 6,
+              "description": "Application log: Internal message serial number",
+              "key_field": false,
+              "data_element": "BALMNR",
+              "domain": "BALMNR",
+              "check_table": "BALM"
+            },
+            "MESSAGE_V1": {
+              "type": "CHAR(50)",
+              "sap_type": "C",
+              "length": 50,
+              "decimals": 0,
+              "position": 7,
+              "description": "Message Variable",
+              "key_field": false,
+              "data_element": "SYMSGV",
+              "domain": "SYCHAR50",
+              "check_table": ""
+            },
+            "MESSAGE_V2": {
+              "type": "CHAR(50)",
+              "sap_type": "C",
+              "length": 50,
+              "decimals": 0,
+              "position": 8,
+              "description": "Message Variable",
+              "key_field": false,
+              "data_element": "SYMSGV",
+              "domain": "SYCHAR50",
+              "check_table": ""
+            },
+            "MESSAGE_V3": {
+              "type": "CHAR(50)",
+              "sap_type": "C",
+              "length": 50,
+              "decimals": 0,
+              "position": 9,
+              "description": "Message Variable",
+              "key_field": false,
+              "data_element": "SYMSGV",
+              "domain": "SYCHAR50",
+              "check_table": ""
+            },
+            "MESSAGE_V4": {
+              "type": "CHAR(50)",
+              "sap_type": "C",
+              "length": 50,
+              "decimals": 0,
+              "position": 10,
+              "description": "Message Variable",
+              "key_field": false,
+              "data_element": "SYMSGV",
+              "domain": "SYCHAR50",
+              "check_table": ""
+            },
+            "PARAMETER": {
+              "type": "CHAR(32)",
+              "sap_type": "C",
+              "length": 32,
+              "decimals": 0,
+              "position": 11,
+              "description": "Parameter Name",
+              "key_field": false,
+              "data_element": "BAPI_PARAM",
+              "domain": "SWC_ELEM",
+              "check_table": ""
+            },
+            "ROW": {
+              "type": "INT(10)",
+              "sap_type": "I",
+              "length": 10,
+              "decimals": 0,
+              "position": 12,
+              "description": "Lines in parameter",
+              "key_field": false,
+              "data_element": "BAPI_LINE",
+              "domain": "INT4",
+              "check_table": ""
+            },
+            "FIELD": {
+              "type": "CHAR(30)",
+              "sap_type": "C",
+              "length": 30,
+              "decimals": 0,
+              "position": 13,
+              "description": "Field in parameter",
+              "key_field": false,
+              "data_element": "BAPI_FLD",
+              "domain": "FDNAME",
+              "check_table": ""
+            },
+            "SYSTEM": {
+              "type": "CHAR(10)",
+              "sap_type": "C",
+              "length": 10,
+              "decimals": 0,
+              "position": 14,
+              "description": "Logical system from which message originates",
+              "key_field": false,
+              "data_element": "BAPILOGSYS",
+              "domain": "LOGSYS",
+              "check_table": ""
+            }
+          },
+          "fields": [
+            "TYPE",
+            "ID",
+            "NUMBER",
+            "MESSAGE",
+            "LOG_NO",
+            "LOG_MSG_NO",
+            "MESSAGE_V1",
+            "MESSAGE_V2",
+            "MESSAGE_V3",
+            "MESSAGE_V4",
+            "PARAMETER",
+            "ROW",
+            "FIELD",
+            "SYSTEM"
+          ],
+          "description": "Return Parameter"
+        }
+      },
+      "_schema_version": "2.0"
+    },
+    "cached_at": "2026-09-30T11:26:50.294429",
+    "func_name": "ZDSH_LOGIN"
+  },
+  "ZDSH_GET_STOCK": {
+    "metadata": {
+      "_metadata": {
+        "function_name": "ZDSH_GET_STOCK",
+        "description": "Get Stock",
+        "area": "ZDSH_FG",
+        "application": "",
+        "dev_class": "ZDSH",
+        "release_date": "00000000",
+        "last_changed": ""
+      },
+      "_language": "EN",
+      "_retrieved_at": "EN",
+      "inputs": {
+        "I_USERID": {
+          "sap_type": "C",
+          "length": 40,
+          "decimals": 0,
+          "description": "User ID",
+          "type": "CHAR(40)",
+          "data_element": "CHAR20"
+        },
+        "I_WERKS": {
+          "sap_type": "C",
+          "length": 8,
+          "decimals": 0,
+          "description": "Plant",
+          "type": "CHAR(8)",
+          "data_element": "WERKS_D"
+        },
+        "I_MATNR": {
+          "sap_type": "C",
+          "length": 36,
+          "decimals": 0,
+          "description": "Material Number",
+          "type": "CHAR(36)",
+          "data_element": "MATNR"
+        }
+      },
+      "outputs": {},
+      "tables": {
+        "ET_STOCK": {
+          "sap_type": "u",
+          "length": 66,
+          "decimals": 0,
+          "type": "TABLE",
+          "table_structure": {
+            "WERKS": {
+              "type": "CHAR(4)",
+              "sap_type": "C",
+              "length": 4,
+              "decimals": 0,
+              "position": 1,
+              "description": "Plant",
+              "key_field": false,
+              "data_element": "WERKS_D",
+              "domain": "WERKS",
+              "check_table": ""
+            },
+            "MATNR": {
+              "type": "CHAR(18)",
+              "sap_type": "C",
+              "length": 18,
+              "decimals": 0,
+              "position": 2,
+              "description": "Material Number",
+              "key_field": false,
+              "data_element": "MATNR",
+              "domain": "MATNR",
+              "check_table": ""
+            },
+            "LGORT": {
+              "type": "CHAR(4)",
+              "sap_type": "C",
+              "length": 4,
+              "decimals": 0,
+              "position": 3,
+              "description": "Storage Location",
+              "key_field": false,
+              "data_element": "LGORT_D",
+              "domain": "LGORT",
+              "check_table": ""
+            },
+            "LABST": {
+              "type": "DECIMAL(13,3)",
+              "sap_type": "P",
+              "length": 13,
+              "decimals": 3,
+              "position": 4,
+              "description": "Valuated Unrestricted-Use Stock",
+              "key_field": false,
+              "data_element": "LABST",
+              "domain": "MENG13V",
+              "check_table": ""
+            },
+            "MEINS": {
+              "type": "CHAR(3)",
+              "sap_type": "C",
+              "length": 3,
+              "decimals": 0,
+              "position": 5,
+              "description": "Base Unit of Measure",
+              "key_field": false,
+              "data_element": "MEINS",
+              "domain": "MEINS",
+              "check_table": ""
+            }
+          },
+          "fields": [
+            "WERKS",
+            "MATNR",
+            "LGORT",
+            "LABST",
+            "MEINS"
+          ],
+          "description": "DSH Get Stock"
+        },
+        "ET_RETURN": {
+          "sap_type": "u",
+          "length": 1088,
+          "decimals": 0,
+          "type": "TABLE",
+          "table_structure": {
+            "TYPE": {
+              "type": "CHAR(1)",
+              "sap_type": "C",
+              "length": 1,
+              "decimals": 0,
+              "position": 1,
+              "description": "Message type: S Success, E Error, W Warning, I Info, A Abort",
+              "key_field": false,
+              "data_element": "BAPI_MTYPE",
+              "domain": "SYCHAR01",
+              "check_table": ""
+            },
+            "ID": {
+              "type": "CHAR(20)",
+              "sap_type": "C",
+              "length": 20,
+              "decimals": 0,
+              "position": 2,
+              "description": "Message Class",
+              "key_field": false,
+              "data_element": "SYMSGID",
+              "domain": "ARBGB",
+              "check_table": "T100A"
+            },
+            "NUMBER": {
+              "type": "NUMC(3)",
+              "sap_type": "N",
+              "length": 3,
+              "decimals": 0,
+              "position": 3,
+              "description": "Message Number",
+              "key_field": false,
+              "data_element": "SYMSGNO",
+              "domain": "SYMSGNO",
+              "check_table": ""
+            },
+            "MESSAGE": {
+              "type": "CHAR(220)",
+              "sap_type": "C",
+              "length": 220,
+              "decimals": 0,
+              "position": 4,
+              "description": "Message Text",
+              "key_field": false,
+              "data_element": "BAPI_MSG",
+              "domain": "TEXT220",
+              "check_table": ""
+            },
+            "LOG_NO": {
+              "type": "CHAR(20)",
+              "sap_type": "C",
+              "length": 20,
+              "decimals": 0,
+              "position": 5,
+              "description": "Application log: log number",
+              "key_field": false,
+              "data_element": "BALOGNR",
+              "domain": "BALOGNR",
+              "check_table": "BALHDR"
+            },
+            "LOG_MSG_NO": {
+              "type": "NUMC(6)",
+              "sap_type": "N",
+              "length": 6,
+              "decimals": 0,
+              "position": 6,
+              "description": "Application log: Internal message serial number",
+              "key_field": false,
+              "data_element": "BALMNR",
+              "domain": "BALMNR",
+              "check_table": "BALM"
+            },
+            "MESSAGE_V1": {
+              "type": "CHAR(50)",
+              "sap_type": "C",
+              "length": 50,
+              "decimals": 0,
+              "position": 7,
+              "description": "Message Variable",
+              "key_field": false,
+              "data_element": "SYMSGV",
+              "domain": "SYCHAR50",
+              "check_table": ""
+            },
+            "MESSAGE_V2": {
+              "type": "CHAR(50)",
+              "sap_type": "C",
+              "length": 50,
+              "decimals": 0,
+              "position": 8,
+              "description": "Message Variable",
+              "key_field": false,
+              "data_element": "SYMSGV",
+              "domain": "SYCHAR50",
+              "check_table": ""
+            },
+            "MESSAGE_V3": {
+              "type": "CHAR(50)",
+              "sap_type": "C",
+              "length": 50,
+              "decimals": 0,
+              "position": 9,
+              "description": "Message Variable",
+              "key_field": false,
+              "data_element": "SYMSGV",
+              "domain": "SYCHAR50",
+              "check_table": ""
+            },
+            "MESSAGE_V4": {
+              "type": "CHAR(50)",
+              "sap_type": "C",
+              "length": 50,
+              "decimals": 0,
+              "position": 10,
+              "description": "Message Variable",
+              "key_field": false,
+              "data_element": "SYMSGV",
+              "domain": "SYCHAR50",
+              "check_table": ""
+            },
+            "PARAMETER": {
+              "type": "CHAR(32)",
+              "sap_type": "C",
+              "length": 32,
+              "decimals": 0,
+              "position": 11,
+              "description": "Parameter Name",
+              "key_field": false,
+              "data_element": "BAPI_PARAM",
+              "domain": "SWC_ELEM",
+              "check_table": ""
+            },
+            "ROW": {
+              "type": "INT(10)",
+              "sap_type": "I",
+              "length": 10,
+              "decimals": 0,
+              "position": 12,
+              "description": "Lines in parameter",
+              "key_field": false,
+              "data_element": "BAPI_LINE",
+              "domain": "INT4",
+              "check_table": ""
+            },
+            "FIELD": {
+              "type": "CHAR(30)",
+              "sap_type": "C",
+              "length": 30,
+              "decimals": 0,
+              "position": 13,
+              "description": "Field in parameter",
+              "key_field": false,
+              "data_element": "BAPI_FLD",
+              "domain": "FDNAME",
+              "check_table": ""
+            },
+            "SYSTEM": {
+              "type": "CHAR(10)",
+              "sap_type": "C",
+              "length": 10,
+              "decimals": 0,
+              "position": 14,
+              "description": "Logical system from which message originates",
+              "key_field": false,
+              "data_element": "BAPILOGSYS",
+              "domain": "LOGSYS",
+              "check_table": ""
+            }
+          },
+          "fields": [
+            "TYPE",
+            "ID",
+            "NUMBER",
+            "MESSAGE",
+            "LOG_NO",
+            "LOG_MSG_NO",
+            "MESSAGE_V1",
+            "MESSAGE_V2",
+            "MESSAGE_V3",
+            "MESSAGE_V4",
+            "PARAMETER",
+            "ROW",
+            "FIELD",
+            "SYSTEM"
+          ],
+          "description": "Return Parameter"
+        }
+      },
+      "_schema_version": "2.0"
+    },
+    "cached_at": "2026-09-30T11:27:17.745818",
+    "func_name": "ZDSH_GET_STOCK"
+  }
+}

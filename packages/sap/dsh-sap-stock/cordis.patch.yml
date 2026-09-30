@@ -1,0 +1,20 @@
+# DSH SAP 库存插件层(自带桥,独立于 sapconnect-dsh)。
+# 安装进 profile 后,这一层插入 dsh-sap-stock 插件行。
+# SAP 服务账号 + 登录账号都写在这里;loginUser/loginPassword 是 volatile,可在插件配置页覆盖。
+- insert:
+    - id: sap-stock
+      name: dsh-sap-stock
+      config:
+        python: D:\Dshwork\SAPConnect\venv\Scripts\python.exe          # Python 解释器(需装 pyrfc)
+        sdkLib: D:\Dshwork\SAPConnect\libs\nwrfcsdk\nwrfcsdk\lib       # SAP NW RFC SDK lib 目录
+        timeoutMs: 120000
+        ashost: "192.168.152.194"    # SAP 应用服务器主机
+        sysnr: "00"                  # 系统编号
+        client: "800"                # 客户端(MANDT)
+        user: "SAPDEV"               # 服务账号(只给执行 ZDSH_LOGIN/ZDSH_GET_STOCK 的 S_RFC 授权)
+        passwd: "Sap,Dev202610"      # 服务账号密码
+        lang: "EN"
+        loginUser: "HECW"            # 登录账号(插件配置页可编辑)
+        loginPassword: "123456"      # 登录密码(插件配置页可编辑,只写不回显)
+        rfcLogin: "ZDSH_LOGIN"       # 登录函数名
+        rfcStock: "ZDSH_GET_STOCK"   # 库存函数名

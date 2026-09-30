@@ -1,0 +1,31 @@
+{
+  "et_return": [
+    "ZDSH_LOGIN",
+    "ZDSH_GET_STOCK"
+  ],
+  "e_username": [
+    "ZDSH_LOGIN"
+  ],
+  "i_password": [
+    "ZDSH_LOGIN"
+  ],
+  "zdsh_login": [
+    "ZDSH_LOGIN"
+  ],
+  "i_userid": [
+    "ZDSH_LOGIN",
+    "ZDSH_GET_STOCK"
+  ],
+  "et_stock": [
+    "ZDSH_GET_STOCK"
+  ],
+  "i_matnr": [
+    "ZDSH_GET_STOCK"
+  ],
+  "i_werks": [
+    "ZDSH_GET_STOCK"
+  ],
+  "zdsh_get_stock": [
+    "ZDSH_GET_STOCK"
+  ]
+}

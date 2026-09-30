@@ -1,0 +1,924 @@
+
+**** Log file opened at 2026-08-17 13:20:23.807463 UTC+08:00 (中国标准时间), Encoding UTF-8
+NW RFC Library: SDK variant, Release 750 Patch Level 18
+Compilation date          : Dec  1 2025 21:35:24
+CPIC library              : 754.2025.08.18 version 3
+NI library                : 40
+Kernel Release            : 754 Patch Level 627
+Current working directory : D:\deepseek-harness
+Program                   : python
+Process ID                : 18496
+User                      : whter
+Hardware                  : PC with Windows NT 8x AMD64 Level 6 (Mod 142 Step 12)
+Binary Type               : 64bit
+Operating_system          : Windows NT 10.0
+Hostname                  : FLL
+IP address                : 192.168.127.11
+IPv6 address              : fe80::3523:c6e4:20aa:e955
+NI IPv6 status            : inactive
+Global trace level        : 0 : None
+
+2026-08-17 13:20:23.807937 [23792] >> Info entry
+	Did not find config file D:\deepseek-harness\sapnwrfc.ini.
+
+**** Log file opened at 2026-09-28 19:32:28.917952 UTC+08:00 (中国标准时间), Encoding UTF-8
+NW RFC Library: SDK variant, Release 750 Patch Level 18
+Compilation date          : Dec  1 2025 21:35:24
+CPIC library              : 754.2025.08.18 version 3
+NI library                : 40
+Kernel Release            : 754 Patch Level 627
+Current working directory : D:\deepseek-harness
+Program                   : python
+Process ID                : 27568
+User                      : whter
+Hardware                  : PC with Windows NT 8x AMD64 Level 6 (Mod 142 Step 12)
+Binary Type               : 64bit
+Operating_system          : Windows NT 10.0
+Hostname                  : FLL
+IP address                : 192.168.127.15
+IPv6 address              : fe80::3523:c6e4:20aa:e955
+NI IPv6 status            : inactive
+Global trace level        : 0 : None
+
+2026-09-28 19:32:28.916994 [03372] >> Info entry
+	throwRfcErrorMsg called at:
+	0x7FFA1D3DB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA1D3DB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA1D3DB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA1D3DB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA1D3DB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA1D3DB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA1D3DB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA1D3DB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA1D3DB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA1D3DB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA1D395BA0: sapnwrfc.dll!RfcOpenConnection(Error in SymSetContext(): 50)
+?????????	0x7FFA21C4778C: python312.dll!PyLong_Copy(Error in SymSetContext(): 50)
+	0x7FFA21BEA7C8: python312.dll!PyObject_Call(Error in SymSetContext(): 50)
+	0x7FFA21C15EB0: python312.dll!PyEval_EvalFrameDefault(Error in SymSetContext(): 50)
+	0x7FFA21C0DC20: python312.dll!PyLong_New(Error in SymSetContext(): 50)
+	0x7FFA21BF2A8C: python312.dll!PyErr_SetNone(Error in SymSetContext(): 50)
+	0x7FFA21C15210: python312.dll!PyObject_Vectorcall(Error in SymSetContext(): 50)
+	0x7FFA21C15210: python312.dll!PyObject_Vectorcall(Error in SymSetContext(): 50)
+	0x7FFA21C15EB0: python312.dll!PyEval_EvalFrameDefault(Error in SymSetContext(): 50)
+	0x7FFA21C145F0: python312.dll!PyFunction_Vectorcall(Error in SymSetContext(): 50)
+	0x7FFA21C0D030: python312.dll!PyArg_CheckPositional(Error in SymSetContext(): 50)
+	0x7FFA21BEA7C8: python312.dll!PyObject_Call(Error in SymSetContext(): 50)
+	0x7FFA21C15EB0: python312.dll!PyEval_EvalFrameDefault(Error in SymSetContext(): 50)
+	0x7FFA21C90520: python312.dll!PyObject_MakeTpCall(Error in SymSetContext(): 50)
+	0x7FFA21C3139C: python312.dll!PyEval_EvalCode(Error in SymSetContext(): 50)
+	0x7FFA21C2AB70: python312.dll!PySys_Audit(Error in SymSetContext(): 50)
+	0x7FFA21C2AB70: python312.dll!PySys_Audit(Error in SymSetContext(): 50)
+	0x7FFA21CA332C: python312.dll!PyDict_DelItemString(Error in SymSetContext(): 50)
+	0x7FFA21CA3160: python312.dll!PyRun_SimpleFileObject(Error in SymSetContext(): 50)
+	0x7FFA21CA3014: python312.dll!PyRun_AnyFileObject(Error in SymSetContext(): 50)
+	0x7FFA21CA2490: python312.dll!PyObject_GenericSetDict(Error in SymSetContext(): 50)
+	0x7FFA21CA2490: python312.dll!PyObject_GenericSetDict(Error in SymSetContext(): 50)
+	0x7FFA21CE1C48: python312.dll!Py_RunMain(Error in SymSetContext(): 50)
+	0x7FFA21CE1C48: python312.dll!Py_RunMain(Error in SymSetContext(): 50)
+	0x7FFA21CE1620: python312.dll!Py_Main(Error in SymSetContext(): 50)
+???	0x7FFAA4A9CD70: KERNEL32.DLL!BaseThreadInitThunk(Error in SymSetContext(): 50)
+	0x7FFAA604CAC0: ntdll.dll!RtlUserThreadStart(Error in SymSetContext(): 50)
+
+2026-09-28 19:32:29.207611 [03372] >> Error entry
+	[Handle: 1133204139568	ConvID: 06620212	Target: 192.168.152.194	SysID: DEV	SysNr: 00	User: SAPDEV	Client: 800	Language: E	Codepage: 4103]
+	RfcLogonException: Key: RFC_LOGON_FAILURE, Code: RFC_LOGON_FAILURE, Message: Name or password is incorrect (repeat logon)
+2026-09-28 19:32:29.431425 [03372] >> Info entry
+	throwRfcErrorMsg called at:
+	0x7FFA1D3DB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA1D3DB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA1D3DB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA1D3DB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA1D3DB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA1D3DB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA1D3DB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA1D3DB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA1D3DB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA1D3DB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA1D395BA0: sapnwrfc.dll!RfcOpenConnection(Error in SymSetContext(): 50)
+?????????	0x7FFA21C4778C: python312.dll!PyLong_Copy(Error in SymSetContext(): 50)
+	0x7FFA21BEA7C8: python312.dll!PyObject_Call(Error in SymSetContext(): 50)
+	0x7FFA21C15EB0: python312.dll!PyEval_EvalFrameDefault(Error in SymSetContext(): 50)
+	0x7FFA21C0DC20: python312.dll!PyLong_New(Error in SymSetContext(): 50)
+	0x7FFA21BF2A8C: python312.dll!PyErr_SetNone(Error in SymSetContext(): 50)
+	0x7FFA21C15EB0: python312.dll!PyEval_EvalFrameDefault(Error in SymSetContext(): 50)
+	0x7FFA21C145F0: python312.dll!PyFunction_Vectorcall(Error in SymSetContext(): 50)
+	0x7FFA21C0D030: python312.dll!PyArg_CheckPositional(Error in SymSetContext(): 50)
+	0x7FFA21BEA7C8: python312.dll!PyObject_Call(Error in SymSetContext(): 50)
+	0x7FFA21C15EB0: python312.dll!PyEval_EvalFrameDefault(Error in SymSetContext(): 50)
+	0x7FFA21C145F0: python312.dll!PyFunction_Vectorcall(Error in SymSetContext(): 50)
+	0x7FFA21C0D030: python312.dll!PyArg_CheckPositional(Error in SymSetContext(): 50)
+	0x7FFA21BEA7C8: python312.dll!PyObject_Call(Error in SymSetContext(): 50)
+	0x7FFA21BEA7C8: python312.dll!PyObject_Call(Error in SymSetContext(): 50)
+	0x7FFA21C15EB0: python312.dll!PyEval_EvalFrameDefault(Error in SymSetContext(): 50)
+	0x7FFA21C90520: python312.dll!PyObject_MakeTpCall(Error in SymSetContext(): 50)
+	0x7FFA21C3139C: python312.dll!PyEval_EvalCode(Error in SymSetContext(): 50)
+	0x7FFA21C2AB70: python312.dll!PySys_Audit(Error in SymSetContext(): 50)
+	0x7FFA21C2AB70: python312.dll!PySys_Audit(Error in SymSetContext(): 50)
+	0x7FFA21CA332C: python312.dll!PyDict_DelItemString(Error in SymSetContext(): 50)
+	0x7FFA21CA3160: python312.dll!PyRun_SimpleFileObject(Error in SymSetContext(): 50)
+	0x7FFA21CA3014: python312.dll!PyRun_AnyFileObject(Error in SymSetContext(): 50)
+	0x7FFA21CA2490: python312.dll!PyObject_GenericSetDict(Error in SymSetContext(): 50)
+	0x7FFA21CA2490: python312.dll!PyObject_GenericSetDict(Error in SymSetContext(): 50)
+	0x7FFA21CE1C48: python312.dll!Py_RunMain(Error in SymSetContext(): 50)
+	0x7FFA21CE1C48: python312.dll!Py_RunMain(Error in SymSetContext(): 50)
+	0x7FFA21CE1620: python312.dll!Py_Main(Error in SymSetContext(): 50)
+???	0x7FFAA4A9CD70: KERNEL32.DLL!BaseThreadInitThunk(Error in SymSetContext(): 50)
+	0x7FFAA604CAC0: ntdll.dll!RtlUserThreadStart(Error in SymSetContext(): 50)
+
+2026-09-28 19:32:29.432965 [03372] >> Error entry
+	[Handle: 1133204139568	ConvID: 06621808	Target: 192.168.152.194	SysID: DEV	SysNr: 00	User: SAPDEV	Client: 800	Language: E	Codepage: 4103]
+	RfcLogonException: Key: RFC_LOGON_FAILURE, Code: RFC_LOGON_FAILURE, Message: Name or password is incorrect (repeat logon)
+2026-09-28 19:32:42.564465 [03372] >> Info entry
+	throwRfcErrorMsg called at:
+	0x7FFA1D3DB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA1D3DB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA1D3DB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA1D3DB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA1D3DB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA1D3DB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA1D3DB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA1D3DB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA1D3DB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA1D3DB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA1D395BA0: sapnwrfc.dll!RfcOpenConnection(Error in SymSetContext(): 50)
+?????????	0x7FFA21C4778C: python312.dll!PyLong_Copy(Error in SymSetContext(): 50)
+	0x7FFA21BEA7C8: python312.dll!PyObject_Call(Error in SymSetContext(): 50)
+	0x7FFA21C15EB0: python312.dll!PyEval_EvalFrameDefault(Error in SymSetContext(): 50)
+	0x7FFA21C90520: python312.dll!PyObject_MakeTpCall(Error in SymSetContext(): 50)
+	0x7FFA21C3139C: python312.dll!PyEval_EvalCode(Error in SymSetContext(): 50)
+	0x7FFA21C2AB70: python312.dll!PySys_Audit(Error in SymSetContext(): 50)
+	0x7FFA21C2AB70: python312.dll!PySys_Audit(Error in SymSetContext(): 50)
+	0x7FFA21CA332C: python312.dll!PyDict_DelItemString(Error in SymSetContext(): 50)
+	0x7FFA21CA3160: python312.dll!PyRun_SimpleFileObject(Error in SymSetContext(): 50)
+	0x7FFA21CA3014: python312.dll!PyRun_AnyFileObject(Error in SymSetContext(): 50)
+	0x7FFA21CA2490: python312.dll!PyObject_GenericSetDict(Error in SymSetContext(): 50)
+	0x7FFA21CA2490: python312.dll!PyObject_GenericSetDict(Error in SymSetContext(): 50)
+	0x7FFA21CE1C48: python312.dll!Py_RunMain(Error in SymSetContext(): 50)
+	0x7FFA21CE1C48: python312.dll!Py_RunMain(Error in SymSetContext(): 50)
+	0x7FFA21CE1620: python312.dll!Py_Main(Error in SymSetContext(): 50)
+???	0x7FFAA4A9CD70: KERNEL32.DLL!BaseThreadInitThunk(Error in SymSetContext(): 50)
+	0x7FFAA604CAC0: ntdll.dll!RtlUserThreadStart(Error in SymSetContext(): 50)
+
+2026-09-28 19:32:42.565389 [03372] >> Error entry
+	[Handle: 1133204139568	ConvID: 06635935	Target: 192.168.152.194	SysID: DEV	SysNr: 00	User: SAPDEV	Client: 800	Language: E	Codepage: 4103]
+	RfcLogonException: Key: RFC_LOGON_FAILURE, Code: RFC_LOGON_FAILURE, Message: Name or password is incorrect (repeat logon)
+2026-09-28 19:34:18.176092 [03372] >> Info entry
+	throwRfcErrorMsg called at:
+	0x7FFA1D3DB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA1D3DB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA1D3DB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA1D3DB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA1D3DB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA1D3DB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA1D3DB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA1D3DB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA1D3DB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA1D3DB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA1D395BA0: sapnwrfc.dll!RfcOpenConnection(Error in SymSetContext(): 50)
+?????????	0x7FFA21C4778C: python312.dll!PyLong_Copy(Error in SymSetContext(): 50)
+	0x7FFA21BEA7C8: python312.dll!PyObject_Call(Error in SymSetContext(): 50)
+	0x7FFA21C15EB0: python312.dll!PyEval_EvalFrameDefault(Error in SymSetContext(): 50)
+	0x7FFA21C0DC20: python312.dll!PyLong_New(Error in SymSetContext(): 50)
+	0x7FFA21BF2A8C: python312.dll!PyErr_SetNone(Error in SymSetContext(): 50)
+	0x7FFA21C15EB0: python312.dll!PyEval_EvalFrameDefault(Error in SymSetContext(): 50)
+	0x7FFA21C145F0: python312.dll!PyFunction_Vectorcall(Error in SymSetContext(): 50)
+	0x7FFA21C0D030: python312.dll!PyArg_CheckPositional(Error in SymSetContext(): 50)
+	0x7FFA21BEA7C8: python312.dll!PyObject_Call(Error in SymSetContext(): 50)
+	0x7FFA21C15EB0: python312.dll!PyEval_EvalFrameDefault(Error in SymSetContext(): 50)
+	0x7FFA21C90520: python312.dll!PyObject_MakeTpCall(Error in SymSetContext(): 50)
+	0x7FFA21C3139C: python312.dll!PyEval_EvalCode(Error in SymSetContext(): 50)
+	0x7FFA21C2AB70: python312.dll!PySys_Audit(Error in SymSetContext(): 50)
+	0x7FFA21C2AB70: python312.dll!PySys_Audit(Error in SymSetContext(): 50)
+	0x7FFA21CA332C: python312.dll!PyDict_DelItemString(Error in SymSetContext(): 50)
+	0x7FFA21CA3160: python312.dll!PyRun_SimpleFileObject(Error in SymSetContext(): 50)
+	0x7FFA21CA3014: python312.dll!PyRun_AnyFileObject(Error in SymSetContext(): 50)
+	0x7FFA21CA2490: python312.dll!PyObject_GenericSetDict(Error in SymSetContext(): 50)
+	0x7FFA21CA2490: python312.dll!PyObject_GenericSetDict(Error in SymSetContext(): 50)
+	0x7FFA21CE1C48: python312.dll!Py_RunMain(Error in SymSetContext(): 50)
+	0x7FFA21CE1C48: python312.dll!Py_RunMain(Error in SymSetContext(): 50)
+	0x7FFA21CE1620: python312.dll!Py_Main(Error in SymSetContext(): 50)
+???	0x7FFAA4A9CD70: KERNEL32.DLL!BaseThreadInitThunk(Error in SymSetContext(): 50)
+	0x7FFAA604CAC0: ntdll.dll!RtlUserThreadStart(Error in SymSetContext(): 50)
+
+2026-09-28 19:34:18.177620 [03372] >> Error entry
+	[Handle: 1133204139568	ConvID: 06732563	Target: 192.168.152.194	SysID: DEV	SysNr: 00	User: SAPDEV	Client: 800	Language: E	Codepage: 4103]
+	RfcLogonException: Key: RFC_LOGON_FAILURE, Code: RFC_LOGON_FAILURE, Message: Name or password is incorrect (repeat logon)
+2026-09-28 19:34:18.392283 [03372] >> Info entry
+	throwRfcErrorMsg called at:
+	0x7FFA1D3DB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA1D3DB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA1D3DB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA1D3DB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA1D3DB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA1D3DB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA1D3DB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA1D3DB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA1D3DB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA1D3DB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA1D395BA0: sapnwrfc.dll!RfcOpenConnection(Error in SymSetContext(): 50)
+?????????	0x7FFA21C4778C: python312.dll!PyLong_Copy(Error in SymSetContext(): 50)
+	0x7FFA21BEA7C8: python312.dll!PyObject_Call(Error in SymSetContext(): 50)
+	0x7FFA21C15EB0: python312.dll!PyEval_EvalFrameDefault(Error in SymSetContext(): 50)
+	0x7FFA21C0DC20: python312.dll!PyLong_New(Error in SymSetContext(): 50)
+	0x7FFA21BF2A8C: python312.dll!PyErr_SetNone(Error in SymSetContext(): 50)
+	0x7FFA21C15EB0: python312.dll!PyEval_EvalFrameDefault(Error in SymSetContext(): 50)
+	0x7FFA21C145F0: python312.dll!PyFunction_Vectorcall(Error in SymSetContext(): 50)
+	0x7FFA21C0D030: python312.dll!PyArg_CheckPositional(Error in SymSetContext(): 50)
+	0x7FFA21BEA7C8: python312.dll!PyObject_Call(Error in SymSetContext(): 50)
+	0x7FFA21C15EB0: python312.dll!PyEval_EvalFrameDefault(Error in SymSetContext(): 50)
+	0x7FFA21C145F0: python312.dll!PyFunction_Vectorcall(Error in SymSetContext(): 50)
+	0x7FFA21C0D030: python312.dll!PyArg_CheckPositional(Error in SymSetContext(): 50)
+	0x7FFA21BEA7C8: python312.dll!PyObject_Call(Error in SymSetContext(): 50)
+	0x7FFA21BEA7C8: python312.dll!PyObject_Call(Error in SymSetContext(): 50)
+	0x7FFA21C15EB0: python312.dll!PyEval_EvalFrameDefault(Error in SymSetContext(): 50)
+	0x7FFA21C90520: python312.dll!PyObject_MakeTpCall(Error in SymSetContext(): 50)
+	0x7FFA21C3139C: python312.dll!PyEval_EvalCode(Error in SymSetContext(): 50)
+	0x7FFA21C2AB70: python312.dll!PySys_Audit(Error in SymSetContext(): 50)
+	0x7FFA21C2AB70: python312.dll!PySys_Audit(Error in SymSetContext(): 50)
+	0x7FFA21CA332C: python312.dll!PyDict_DelItemString(Error in SymSetContext(): 50)
+	0x7FFA21CA3160: python312.dll!PyRun_SimpleFileObject(Error in SymSetContext(): 50)
+	0x7FFA21CA3014: python312.dll!PyRun_AnyFileObject(Error in SymSetContext(): 50)
+	0x7FFA21CA2490: python312.dll!PyObject_GenericSetDict(Error in SymSetContext(): 50)
+	0x7FFA21CA2490: python312.dll!PyObject_GenericSetDict(Error in SymSetContext(): 50)
+	0x7FFA21CE1C48: python312.dll!Py_RunMain(Error in SymSetContext(): 50)
+	0x7FFA21CE1C48: python312.dll!Py_RunMain(Error in SymSetContext(): 50)
+	0x7FFA21CE1620: python312.dll!Py_Main(Error in SymSetContext(): 50)
+???	0x7FFAA4A9CD70: KERNEL32.DLL!BaseThreadInitThunk(Error in SymSetContext(): 50)
+	0x7FFAA604CAC0: ntdll.dll!RtlUserThreadStart(Error in SymSetContext(): 50)
+
+2026-09-28 19:34:18.393892 [03372] >> Error entry
+	[Handle: 1133204139568	ConvID: 06733775	Target: 192.168.152.194	SysID: DEV	SysNr: 00	User: SAPDEV	Client: 800	Language: E	Codepage: 4103]
+	RfcLogonException: Key: RFC_LOGON_FAILURE, Code: RFC_LOGON_FAILURE, Message: Name or password is incorrect (repeat logon)
+2026-09-28 19:34:25.729649 [03372] >> Info entry
+	throwRfcErrorMsg called at:
+	0x7FFA1D3DB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA1D3DB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA1D3DB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA1D3DB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA1D3DB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA1D3DB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA1D3DB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA1D3DB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA1D3DB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA1D3DB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA1D395BA0: sapnwrfc.dll!RfcOpenConnection(Error in SymSetContext(): 50)
+?????????	0x7FFA21C4778C: python312.dll!PyLong_Copy(Error in SymSetContext(): 50)
+	0x7FFA21BEA7C8: python312.dll!PyObject_Call(Error in SymSetContext(): 50)
+	0x7FFA21C15EB0: python312.dll!PyEval_EvalFrameDefault(Error in SymSetContext(): 50)
+	0x7FFA21C0DC20: python312.dll!PyLong_New(Error in SymSetContext(): 50)
+	0x7FFA21BF2A8C: python312.dll!PyErr_SetNone(Error in SymSetContext(): 50)
+	0x7FFA21C15EB0: python312.dll!PyEval_EvalFrameDefault(Error in SymSetContext(): 50)
+	0x7FFA21C145F0: python312.dll!PyFunction_Vectorcall(Error in SymSetContext(): 50)
+	0x7FFA21C0D030: python312.dll!PyArg_CheckPositional(Error in SymSetContext(): 50)
+	0x7FFA21BEA7C8: python312.dll!PyObject_Call(Error in SymSetContext(): 50)
+	0x7FFA21C15EB0: python312.dll!PyEval_EvalFrameDefault(Error in SymSetContext(): 50)
+	0x7FFA21C90520: python312.dll!PyObject_MakeTpCall(Error in SymSetContext(): 50)
+	0x7FFA21C3139C: python312.dll!PyEval_EvalCode(Error in SymSetContext(): 50)
+	0x7FFA21C2AB70: python312.dll!PySys_Audit(Error in SymSetContext(): 50)
+	0x7FFA21C2AB70: python312.dll!PySys_Audit(Error in SymSetContext(): 50)
+	0x7FFA21CA332C: python312.dll!PyDict_DelItemString(Error in SymSetContext(): 50)
+	0x7FFA21CA3160: python312.dll!PyRun_SimpleFileObject(Error in SymSetContext(): 50)
+	0x7FFA21CA3014: python312.dll!PyRun_AnyFileObject(Error in SymSetContext(): 50)
+	0x7FFA21CA2490: python312.dll!PyObject_GenericSetDict(Error in SymSetContext(): 50)
+	0x7FFA21CA2490: python312.dll!PyObject_GenericSetDict(Error in SymSetContext(): 50)
+	0x7FFA21CE1C48: python312.dll!Py_RunMain(Error in SymSetContext(): 50)
+	0x7FFA21CE1C48: python312.dll!Py_RunMain(Error in SymSetContext(): 50)
+	0x7FFA21CE1620: python312.dll!Py_Main(Error in SymSetContext(): 50)
+???	0x7FFAA4A9CD70: KERNEL32.DLL!BaseThreadInitThunk(Error in SymSetContext(): 50)
+	0x7FFAA604CAC0: ntdll.dll!RtlUserThreadStart(Error in SymSetContext(): 50)
+
+2026-09-28 19:34:25.730981 [03372] >> Error entry
+	[Handle: 1133204139568	ConvID: 06742140	Target: 192.168.152.194	SysID: DEV	SysNr: 00	User: SAPDEV	Client: 800	Language: E	Codepage: 4103]
+	RfcLogonException: Key: RFC_LOGON_FAILURE, Code: RFC_LOGON_FAILURE, Message: Password logon no longer possible - too many failed attempts
+2026-09-28 19:35:25.124854 [03372] >> Info entry
+	throwRfcErrorMsg called at:
+	0x7FFA1D3DB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA1D3DB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA1D3DB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA1D3DB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA1D3DB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA1D3DB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA1D3DB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA1D3DB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA1D3DB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA1D3DB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA1D395BA0: sapnwrfc.dll!RfcOpenConnection(Error in SymSetContext(): 50)
+?????????	0x7FFA21C4778C: python312.dll!PyLong_Copy(Error in SymSetContext(): 50)
+	0x7FFA21BEA7C8: python312.dll!PyObject_Call(Error in SymSetContext(): 50)
+	0x7FFA21C15EB0: python312.dll!PyEval_EvalFrameDefault(Error in SymSetContext(): 50)
+	0x7FFA21C0DC20: python312.dll!PyLong_New(Error in SymSetContext(): 50)
+	0x7FFA21BF2A8C: python312.dll!PyErr_SetNone(Error in SymSetContext(): 50)
+	0x7FFA21C15EB0: python312.dll!PyEval_EvalFrameDefault(Error in SymSetContext(): 50)
+	0x7FFA21C145F0: python312.dll!PyFunction_Vectorcall(Error in SymSetContext(): 50)
+	0x7FFA21C0D030: python312.dll!PyArg_CheckPositional(Error in SymSetContext(): 50)
+	0x7FFA21BEA7C8: python312.dll!PyObject_Call(Error in SymSetContext(): 50)
+	0x7FFA21C15EB0: python312.dll!PyEval_EvalFrameDefault(Error in SymSetContext(): 50)
+	0x7FFA21C90520: python312.dll!PyObject_MakeTpCall(Error in SymSetContext(): 50)
+	0x7FFA21C3139C: python312.dll!PyEval_EvalCode(Error in SymSetContext(): 50)
+	0x7FFA21C2AB70: python312.dll!PySys_Audit(Error in SymSetContext(): 50)
+	0x7FFA21C2AB70: python312.dll!PySys_Audit(Error in SymSetContext(): 50)
+	0x7FFA21CA332C: python312.dll!PyDict_DelItemString(Error in SymSetContext(): 50)
+	0x7FFA21CA3160: python312.dll!PyRun_SimpleFileObject(Error in SymSetContext(): 50)
+	0x7FFA21CA3014: python312.dll!PyRun_AnyFileObject(Error in SymSetContext(): 50)
+	0x7FFA21CA2490: python312.dll!PyObject_GenericSetDict(Error in SymSetContext(): 50)
+	0x7FFA21CA2490: python312.dll!PyObject_GenericSetDict(Error in SymSetContext(): 50)
+	0x7FFA21CE1C48: python312.dll!Py_RunMain(Error in SymSetContext(): 50)
+	0x7FFA21CE1C48: python312.dll!Py_RunMain(Error in SymSetContext(): 50)
+	0x7FFA21CE1620: python312.dll!Py_Main(Error in SymSetContext(): 50)
+???	0x7FFAA4A9CD70: KERNEL32.DLL!BaseThreadInitThunk(Error in SymSetContext(): 50)
+	0x7FFAA604CAC0: ntdll.dll!RtlUserThreadStart(Error in SymSetContext(): 50)
+
+2026-09-28 19:35:25.125883 [03372] >> Error entry
+	[Handle: 1133204139568	ConvID: 06802522	Target: 192.168.152.194	SysID: DEV	SysNr: 00	User: SAPDEV	Client: 800	Language: E	Codepage: 4103]
+	RfcLogonException: Key: RFC_LOGON_FAILURE, Code: RFC_LOGON_FAILURE, Message: Name or password is incorrect (repeat logon)
+2026-09-28 19:35:25.346528 [03372] >> Info entry
+	throwRfcErrorMsg called at:
+	0x7FFA1D3DB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA1D3DB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA1D3DB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA1D3DB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA1D3DB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA1D3DB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA1D3DB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA1D3DB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA1D3DB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA1D3DB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA1D395BA0: sapnwrfc.dll!RfcOpenConnection(Error in SymSetContext(): 50)
+?????????	0x7FFA21C4778C: python312.dll!PyLong_Copy(Error in SymSetContext(): 50)
+	0x7FFA21BEA7C8: python312.dll!PyObject_Call(Error in SymSetContext(): 50)
+	0x7FFA21C15EB0: python312.dll!PyEval_EvalFrameDefault(Error in SymSetContext(): 50)
+	0x7FFA21C0DC20: python312.dll!PyLong_New(Error in SymSetContext(): 50)
+	0x7FFA21BF2A8C: python312.dll!PyErr_SetNone(Error in SymSetContext(): 50)
+	0x7FFA21C15EB0: python312.dll!PyEval_EvalFrameDefault(Error in SymSetContext(): 50)
+	0x7FFA21C145F0: python312.dll!PyFunction_Vectorcall(Error in SymSetContext(): 50)
+	0x7FFA21C0D030: python312.dll!PyArg_CheckPositional(Error in SymSetContext(): 50)
+	0x7FFA21BEA7C8: python312.dll!PyObject_Call(Error in SymSetContext(): 50)
+	0x7FFA21C15EB0: python312.dll!PyEval_EvalFrameDefault(Error in SymSetContext(): 50)
+	0x7FFA21C145F0: python312.dll!PyFunction_Vectorcall(Error in SymSetContext(): 50)
+	0x7FFA21C0D030: python312.dll!PyArg_CheckPositional(Error in SymSetContext(): 50)
+	0x7FFA21BEA7C8: python312.dll!PyObject_Call(Error in SymSetContext(): 50)
+	0x7FFA21BEA7C8: python312.dll!PyObject_Call(Error in SymSetContext(): 50)
+	0x7FFA21C15EB0: python312.dll!PyEval_EvalFrameDefault(Error in SymSetContext(): 50)
+	0x7FFA21C90520: python312.dll!PyObject_MakeTpCall(Error in SymSetContext(): 50)
+	0x7FFA21C3139C: python312.dll!PyEval_EvalCode(Error in SymSetContext(): 50)
+	0x7FFA21C2AB70: python312.dll!PySys_Audit(Error in SymSetContext(): 50)
+	0x7FFA21C2AB70: python312.dll!PySys_Audit(Error in SymSetContext(): 50)
+	0x7FFA21CA332C: python312.dll!PyDict_DelItemString(Error in SymSetContext(): 50)
+	0x7FFA21CA3160: python312.dll!PyRun_SimpleFileObject(Error in SymSetContext(): 50)
+	0x7FFA21CA3014: python312.dll!PyRun_AnyFileObject(Error in SymSetContext(): 50)
+	0x7FFA21CA2490: python312.dll!PyObject_GenericSetDict(Error in SymSetContext(): 50)
+	0x7FFA21CA2490: python312.dll!PyObject_GenericSetDict(Error in SymSetContext(): 50)
+	0x7FFA21CE1C48: python312.dll!Py_RunMain(Error in SymSetContext(): 50)
+	0x7FFA21CE1C48: python312.dll!Py_RunMain(Error in SymSetContext(): 50)
+	0x7FFA21CE1620: python312.dll!Py_Main(Error in SymSetContext(): 50)
+???	0x7FFAA4A9CD70: KERNEL32.DLL!BaseThreadInitThunk(Error in SymSetContext(): 50)
+	0x7FFAA604CAC0: ntdll.dll!RtlUserThreadStart(Error in SymSetContext(): 50)
+
+2026-09-28 19:35:25.347627 [03372] >> Error entry
+	[Handle: 1133204139568	ConvID: 06803731	Target: 192.168.152.194	SysID: DEV	SysNr: 00	User: SAPDEV	Client: 800	Language: E	Codepage: 4103]
+	RfcLogonException: Key: RFC_LOGON_FAILURE, Code: RFC_LOGON_FAILURE, Message: Name or password is incorrect (repeat logon)
+2026-09-28 19:35:49.987782 [03372] >> Info entry
+	throwRfcErrorMsg called at:
+	0x7FFA1D3DB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA1D3DB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA1D3DB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA1D3DB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA1D3DB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA1D3DB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA1D3DB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA1D3DB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA1D3DB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA1D3DB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA1D395BA0: sapnwrfc.dll!RfcOpenConnection(Error in SymSetContext(): 50)
+?????????	0x7FFA21C4778C: python312.dll!PyLong_Copy(Error in SymSetContext(): 50)
+	0x7FFA21BEA7C8: python312.dll!PyObject_Call(Error in SymSetContext(): 50)
+	0x7FFA21C15EB0: python312.dll!PyEval_EvalFrameDefault(Error in SymSetContext(): 50)
+	0x7FFA21C0DC20: python312.dll!PyLong_New(Error in SymSetContext(): 50)
+	0x7FFA21BF2A8C: python312.dll!PyErr_SetNone(Error in SymSetContext(): 50)
+	0x7FFA21C15EB0: python312.dll!PyEval_EvalFrameDefault(Error in SymSetContext(): 50)
+	0x7FFA21C145F0: python312.dll!PyFunction_Vectorcall(Error in SymSetContext(): 50)
+	0x7FFA21C0D030: python312.dll!PyArg_CheckPositional(Error in SymSetContext(): 50)
+	0x7FFA21BEA7C8: python312.dll!PyObject_Call(Error in SymSetContext(): 50)
+	0x7FFA21C15EB0: python312.dll!PyEval_EvalFrameDefault(Error in SymSetContext(): 50)
+	0x7FFA21C90520: python312.dll!PyObject_MakeTpCall(Error in SymSetContext(): 50)
+	0x7FFA21C3139C: python312.dll!PyEval_EvalCode(Error in SymSetContext(): 50)
+	0x7FFA21C2AB70: python312.dll!PySys_Audit(Error in SymSetContext(): 50)
+	0x7FFA21C2AB70: python312.dll!PySys_Audit(Error in SymSetContext(): 50)
+	0x7FFA21CA332C: python312.dll!PyDict_DelItemString(Error in SymSetContext(): 50)
+	0x7FFA21CA3160: python312.dll!PyRun_SimpleFileObject(Error in SymSetContext(): 50)
+	0x7FFA21CA3014: python312.dll!PyRun_AnyFileObject(Error in SymSetContext(): 50)
+	0x7FFA21CA2490: python312.dll!PyObject_GenericSetDict(Error in SymSetContext(): 50)
+	0x7FFA21CA2490: python312.dll!PyObject_GenericSetDict(Error in SymSetContext(): 50)
+	0x7FFA21CE1C48: python312.dll!Py_RunMain(Error in SymSetContext(): 50)
+	0x7FFA21CE1C48: python312.dll!Py_RunMain(Error in SymSetContext(): 50)
+	0x7FFA21CE1620: python312.dll!Py_Main(Error in SymSetContext(): 50)
+???	0x7FFAA4A9CD70: KERNEL32.DLL!BaseThreadInitThunk(Error in SymSetContext(): 50)
+	0x7FFAA604CAC0: ntdll.dll!RtlUserThreadStart(Error in SymSetContext(): 50)
+
+2026-09-28 19:35:49.989195 [03372] >> Error entry
+	[Handle: 1133204139568	ConvID: 06829388	Target: 192.168.152.194	SysID: DEV	SysNr: 00	User: SAPDEV	Client: 800	Language: E	Codepage: 4103]
+	RfcLogonException: Key: RFC_LOGON_FAILURE, Code: RFC_LOGON_FAILURE, Message: Name or password is incorrect (repeat logon)
+
+**** Log file opened at 2026-09-29 14:07:28.358510 UTC+08:00 (中国标准时间), Encoding UTF-8
+NW RFC Library: SDK variant, Release 750 Patch Level 18
+Compilation date          : Dec  1 2025 21:35:24
+CPIC library              : 754.2025.08.18 version 3
+NI library                : 40
+Kernel Release            : 754 Patch Level 627
+Current working directory : D:\deepseek-harness
+Program                   : python
+Process ID                : 23496
+User                      : whter
+Hardware                  : PC with Windows NT 8x AMD64 Level 6 (Mod 142 Step 12)
+Binary Type               : 64bit
+Operating_system          : Windows NT 10.0
+Hostname                  : FLL
+IP address                : 192.168.127.13
+IPv6 address              : fe80::3523:c6e4:20aa:e955
+NI IPv6 status            : inactive
+Global trace level        : 0 : None
+
+2026-09-29 14:07:28.358067 [06268] >> Info entry
+	throwRfcErrorMsg called at:
+	0x7FFA246CB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA246CB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA246CB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA246CB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA246CB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA246CB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA2468C410: sapnwrfc.dll!RfcInvoke(Error in SymSetContext(): 50)
+??????	0x7FFA27215210: python312.dll!PyObject_Vectorcall(Error in SymSetContext(): 50)
+	0x7FFA27215210: python312.dll!PyObject_Vectorcall(Error in SymSetContext(): 50)
+	0x7FFA27215EB0: python312.dll!PyEval_EvalFrameDefault(Error in SymSetContext(): 50)
+	0x7FFA27290520: python312.dll!PyObject_MakeTpCall(Error in SymSetContext(): 50)
+	0x7FFA2723139C: python312.dll!PyEval_EvalCode(Error in SymSetContext(): 50)
+	0x7FFA2722AB70: python312.dll!PySys_Audit(Error in SymSetContext(): 50)
+	0x7FFA2722AB70: python312.dll!PySys_Audit(Error in SymSetContext(): 50)
+	0x7FFA272A332C: python312.dll!PyDict_DelItemString(Error in SymSetContext(): 50)
+	0x7FFA272A3160: python312.dll!PyRun_SimpleFileObject(Error in SymSetContext(): 50)
+	0x7FFA272A3014: python312.dll!PyRun_AnyFileObject(Error in SymSetContext(): 50)
+	0x7FFA272A2490: python312.dll!PyObject_GenericSetDict(Error in SymSetContext(): 50)
+	0x7FFA272A2490: python312.dll!PyObject_GenericSetDict(Error in SymSetContext(): 50)
+	0x7FFA272E1C48: python312.dll!Py_RunMain(Error in SymSetContext(): 50)
+	0x7FFA272E1C48: python312.dll!Py_RunMain(Error in SymSetContext(): 50)
+	0x7FFA272E1620: python312.dll!Py_Main(Error in SymSetContext(): 50)
+???	0x7FFAA4A9CD70: KERNEL32.DLL!BaseThreadInitThunk(Error in SymSetContext(): 50)
+	0x7FFAA604CAC0: ntdll.dll!RtlUserThreadStart(Error in SymSetContext(): 50)
+
+2026-09-29 14:07:47.273282 [06268] >> Info entry
+	throwRfcErrorMsg called at:
+	0x7FFA246CB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA246CB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA246CB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA246CB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA246CB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA246CB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA2468C410: sapnwrfc.dll!RfcInvoke(Error in SymSetContext(): 50)
+??????	0x7FFA2720D030: python312.dll!PyArg_CheckPositional(Error in SymSetContext(): 50)
+	0x7FFA271EA7C8: python312.dll!PyObject_Call(Error in SymSetContext(): 50)
+	0x7FFA271EA7C8: python312.dll!PyObject_Call(Error in SymSetContext(): 50)
+	0x7FFA27215EB0: python312.dll!PyEval_EvalFrameDefault(Error in SymSetContext(): 50)
+	0x7FFA27290520: python312.dll!PyObject_MakeTpCall(Error in SymSetContext(): 50)
+	0x7FFA2723139C: python312.dll!PyEval_EvalCode(Error in SymSetContext(): 50)
+	0x7FFA2722AB70: python312.dll!PySys_Audit(Error in SymSetContext(): 50)
+	0x7FFA2722AB70: python312.dll!PySys_Audit(Error in SymSetContext(): 50)
+	0x7FFA272A332C: python312.dll!PyDict_DelItemString(Error in SymSetContext(): 50)
+	0x7FFA272A3160: python312.dll!PyRun_SimpleFileObject(Error in SymSetContext(): 50)
+	0x7FFA272A3014: python312.dll!PyRun_AnyFileObject(Error in SymSetContext(): 50)
+	0x7FFA272A2490: python312.dll!PyObject_GenericSetDict(Error in SymSetContext(): 50)
+	0x7FFA272A2490: python312.dll!PyObject_GenericSetDict(Error in SymSetContext(): 50)
+	0x7FFA272E1C48: python312.dll!Py_RunMain(Error in SymSetContext(): 50)
+	0x7FFA272E1C48: python312.dll!Py_RunMain(Error in SymSetContext(): 50)
+	0x7FFA272E1620: python312.dll!Py_Main(Error in SymSetContext(): 50)
+???	0x7FFAA4A9CD70: KERNEL32.DLL!BaseThreadInitThunk(Error in SymSetContext(): 50)
+	0x7FFAA604CAC0: ntdll.dll!RtlUserThreadStart(Error in SymSetContext(): 50)
+
+2026-09-29 14:09:49.718797 [06268] >> Info entry
+	throwRfcErrorMsg called at:
+	0x7FFA246CB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA246CB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA246CB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA246CB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA246CB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA246CB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA2468C410: sapnwrfc.dll!RfcInvoke(Error in SymSetContext(): 50)
+??????	0x7FFA27215210: python312.dll!PyObject_Vectorcall(Error in SymSetContext(): 50)
+	0x7FFA27215210: python312.dll!PyObject_Vectorcall(Error in SymSetContext(): 50)
+	0x7FFA27215EB0: python312.dll!PyEval_EvalFrameDefault(Error in SymSetContext(): 50)
+	0x7FFA27290520: python312.dll!PyObject_MakeTpCall(Error in SymSetContext(): 50)
+	0x7FFA2723139C: python312.dll!PyEval_EvalCode(Error in SymSetContext(): 50)
+	0x7FFA2722AB70: python312.dll!PySys_Audit(Error in SymSetContext(): 50)
+	0x7FFA2722AB70: python312.dll!PySys_Audit(Error in SymSetContext(): 50)
+	0x7FFA272A332C: python312.dll!PyDict_DelItemString(Error in SymSetContext(): 50)
+	0x7FFA272A3160: python312.dll!PyRun_SimpleFileObject(Error in SymSetContext(): 50)
+	0x7FFA272A3014: python312.dll!PyRun_AnyFileObject(Error in SymSetContext(): 50)
+	0x7FFA272A2490: python312.dll!PyObject_GenericSetDict(Error in SymSetContext(): 50)
+	0x7FFA272A2490: python312.dll!PyObject_GenericSetDict(Error in SymSetContext(): 50)
+	0x7FFA272E1C48: python312.dll!Py_RunMain(Error in SymSetContext(): 50)
+	0x7FFA272E1C48: python312.dll!Py_RunMain(Error in SymSetContext(): 50)
+	0x7FFA272E1620: python312.dll!Py_Main(Error in SymSetContext(): 50)
+???	0x7FFAA4A9CD70: KERNEL32.DLL!BaseThreadInitThunk(Error in SymSetContext(): 50)
+	0x7FFAA604CAC0: ntdll.dll!RtlUserThreadStart(Error in SymSetContext(): 50)
+
+2026-09-29 14:09:50.226552 [06268] >> Info entry
+	throwRfcErrorMsg called at:
+	0x7FFA246CB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA246CB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA246CB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA246CB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA246CB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA246CB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA246CB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA246CB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA246CB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA246CB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA246CB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA2468C410: sapnwrfc.dll!RfcInvoke(Error in SymSetContext(): 50)
+??????	0x7FFA2720D030: python312.dll!PyArg_CheckPositional(Error in SymSetContext(): 50)
+	0x7FFA271EA7C8: python312.dll!PyObject_Call(Error in SymSetContext(): 50)
+	0x7FFA271EA7C8: python312.dll!PyObject_Call(Error in SymSetContext(): 50)
+	0x7FFA27215EB0: python312.dll!PyEval_EvalFrameDefault(Error in SymSetContext(): 50)
+	0x7FFA272145F0: python312.dll!PyFunction_Vectorcall(Error in SymSetContext(): 50)
+	0x7FFA2720D030: python312.dll!PyArg_CheckPositional(Error in SymSetContext(): 50)
+	0x7FFA271EA7C8: python312.dll!PyObject_Call(Error in SymSetContext(): 50)
+	0x7FFA271EA7C8: python312.dll!PyObject_Call(Error in SymSetContext(): 50)
+	0x7FFA27215EB0: python312.dll!PyEval_EvalFrameDefault(Error in SymSetContext(): 50)
+	0x7FFA27290520: python312.dll!PyObject_MakeTpCall(Error in SymSetContext(): 50)
+	0x7FFA2723139C: python312.dll!PyEval_EvalCode(Error in SymSetContext(): 50)
+	0x7FFA2722AB70: python312.dll!PySys_Audit(Error in SymSetContext(): 50)
+	0x7FFA2722AB70: python312.dll!PySys_Audit(Error in SymSetContext(): 50)
+	0x7FFA272A332C: python312.dll!PyDict_DelItemString(Error in SymSetContext(): 50)
+	0x7FFA272A3160: python312.dll!PyRun_SimpleFileObject(Error in SymSetContext(): 50)
+	0x7FFA272A3014: python312.dll!PyRun_AnyFileObject(Error in SymSetContext(): 50)
+	0x7FFA272A2490: python312.dll!PyObject_GenericSetDict(Error in SymSetContext(): 50)
+	0x7FFA272A2490: python312.dll!PyObject_GenericSetDict(Error in SymSetContext(): 50)
+	0x7FFA272E1C48: python312.dll!Py_RunMain(Error in SymSetContext(): 50)
+	0x7FFA272E1C48: python312.dll!Py_RunMain(Error in SymSetContext(): 50)
+	0x7FFA272E1620: python312.dll!Py_Main(Error in SymSetContext(): 50)
+???	0x7FFAA4A9CD70: KERNEL32.DLL!BaseThreadInitThunk(Error in SymSetContext(): 50)
+	0x7FFAA604CAC0: ntdll.dll!RtlUserThreadStart(Error in SymSetContext(): 50)
+
+2026-09-29 14:09:50.234263 [06268] >> Error entry
+	[Handle: 1601791164496	ConvID: 73184066	Target: SAPDEVAPP.haycohk.com.hk	SysID: DEV	SysNr: 00	User: SAPDEV	Client: 800	Language: E	Codepage: 4103]
+	RfcSystemException: Key: SAPSQL_PARSE_ERROR, Code: RFC_ABAP_RUNTIME_FAILURE, Message: An error has occurred while parsing a dynamic entry.
+2026-09-29 14:25:42.109797 [06268] >> Info entry
+	throwRfcErrorMsg called at:
+	0x7FFA246CB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA246CB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA246CB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA246CB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA246CB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA246CB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA246CB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA246CB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA246CB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA246CB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA246CB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA2468C410: sapnwrfc.dll!RfcInvoke(Error in SymSetContext(): 50)
+??????	0x7FFA2720D030: python312.dll!PyArg_CheckPositional(Error in SymSetContext(): 50)
+	0x7FFA271EA7C8: python312.dll!PyObject_Call(Error in SymSetContext(): 50)
+	0x7FFA271EA7C8: python312.dll!PyObject_Call(Error in SymSetContext(): 50)
+	0x7FFA27215EB0: python312.dll!PyEval_EvalFrameDefault(Error in SymSetContext(): 50)
+	0x7FFA272145F0: python312.dll!PyFunction_Vectorcall(Error in SymSetContext(): 50)
+	0x7FFA2720D030: python312.dll!PyArg_CheckPositional(Error in SymSetContext(): 50)
+	0x7FFA271EA7C8: python312.dll!PyObject_Call(Error in SymSetContext(): 50)
+	0x7FFA271EA7C8: python312.dll!PyObject_Call(Error in SymSetContext(): 50)
+	0x7FFA27215EB0: python312.dll!PyEval_EvalFrameDefault(Error in SymSetContext(): 50)
+	0x7FFA27290520: python312.dll!PyObject_MakeTpCall(Error in SymSetContext(): 50)
+	0x7FFA2723139C: python312.dll!PyEval_EvalCode(Error in SymSetContext(): 50)
+	0x7FFA2722AB70: python312.dll!PySys_Audit(Error in SymSetContext(): 50)
+	0x7FFA2722AB70: python312.dll!PySys_Audit(Error in SymSetContext(): 50)
+	0x7FFA272A332C: python312.dll!PyDict_DelItemString(Error in SymSetContext(): 50)
+	0x7FFA272A3160: python312.dll!PyRun_SimpleFileObject(Error in SymSetContext(): 50)
+	0x7FFA272A3014: python312.dll!PyRun_AnyFileObject(Error in SymSetContext(): 50)
+	0x7FFA272A2490: python312.dll!PyObject_GenericSetDict(Error in SymSetContext(): 50)
+	0x7FFA272A2490: python312.dll!PyObject_GenericSetDict(Error in SymSetContext(): 50)
+	0x7FFA272E1C48: python312.dll!Py_RunMain(Error in SymSetContext(): 50)
+	0x7FFA272E1C48: python312.dll!Py_RunMain(Error in SymSetContext(): 50)
+	0x7FFA272E1620: python312.dll!Py_Main(Error in SymSetContext(): 50)
+???	0x7FFAA4A9CD70: KERNEL32.DLL!BaseThreadInitThunk(Error in SymSetContext(): 50)
+	0x7FFAA604CAC0: ntdll.dll!RtlUserThreadStart(Error in SymSetContext(): 50)
+
+2026-09-29 14:25:42.112372 [06268] >> Error entry
+	[Handle: 1601851301056	ConvID: 74166909	Target: SAPDEVAPP.haycohk.com.hk	SysID: DEV	SysNr: 00	User: SAPDEV	Client: 800	Language: E	Codepage: 4103]
+	RfcSystemException: Key: SAPSQL_PARSE_ERROR, Code: RFC_ABAP_RUNTIME_FAILURE, Message: An error has occurred while parsing a dynamic entry.
+2026-09-29 14:26:26.140546 [06268] >> Info entry
+	throwRfcErrorMsg called at:
+	0x7FFA246CB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA246CB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA246CB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA246CB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA246CB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA246CB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA246CB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA246CB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA246CB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA246CB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA246CB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA2468C410: sapnwrfc.dll!RfcInvoke(Error in SymSetContext(): 50)
+??????	0x7FFA2720D030: python312.dll!PyArg_CheckPositional(Error in SymSetContext(): 50)
+	0x7FFA271EA7C8: python312.dll!PyObject_Call(Error in SymSetContext(): 50)
+	0x7FFA271EA7C8: python312.dll!PyObject_Call(Error in SymSetContext(): 50)
+	0x7FFA27215EB0: python312.dll!PyEval_EvalFrameDefault(Error in SymSetContext(): 50)
+	0x7FFA272145F0: python312.dll!PyFunction_Vectorcall(Error in SymSetContext(): 50)
+	0x7FFA2720D030: python312.dll!PyArg_CheckPositional(Error in SymSetContext(): 50)
+	0x7FFA271EA7C8: python312.dll!PyObject_Call(Error in SymSetContext(): 50)
+	0x7FFA271EA7C8: python312.dll!PyObject_Call(Error in SymSetContext(): 50)
+	0x7FFA27215EB0: python312.dll!PyEval_EvalFrameDefault(Error in SymSetContext(): 50)
+	0x7FFA27290520: python312.dll!PyObject_MakeTpCall(Error in SymSetContext(): 50)
+	0x7FFA2723139C: python312.dll!PyEval_EvalCode(Error in SymSetContext(): 50)
+	0x7FFA2722AB70: python312.dll!PySys_Audit(Error in SymSetContext(): 50)
+	0x7FFA2722AB70: python312.dll!PySys_Audit(Error in SymSetContext(): 50)
+	0x7FFA272A332C: python312.dll!PyDict_DelItemString(Error in SymSetContext(): 50)
+	0x7FFA272A3160: python312.dll!PyRun_SimpleFileObject(Error in SymSetContext(): 50)
+	0x7FFA272A3014: python312.dll!PyRun_AnyFileObject(Error in SymSetContext(): 50)
+	0x7FFA272A2490: python312.dll!PyObject_GenericSetDict(Error in SymSetContext(): 50)
+	0x7FFA272A2490: python312.dll!PyObject_GenericSetDict(Error in SymSetContext(): 50)
+	0x7FFA272E1C48: python312.dll!Py_RunMain(Error in SymSetContext(): 50)
+	0x7FFA272E1C48: python312.dll!Py_RunMain(Error in SymSetContext(): 50)
+	0x7FFA272E1620: python312.dll!Py_Main(Error in SymSetContext(): 50)
+???	0x7FFAA4A9CD70: KERNEL32.DLL!BaseThreadInitThunk(Error in SymSetContext(): 50)
+	0x7FFAA604CAC0: ntdll.dll!RtlUserThreadStart(Error in SymSetContext(): 50)
+
+2026-09-29 14:26:26.141336 [06268] >> Error entry
+	[Handle: 1601788812992	ConvID: 74219982	Target: SAPDEVAPP.haycohk.com.hk	SysID: DEV	SysNr: 00	User: SAPDEV	Client: 800	Language: E	Codepage: 4103]
+	RfcSystemException: Key: ASSIGN_CASTING_ILLEGAL_CAST, Code: RFC_ABAP_RUNTIME_FAILURE, Message: Error with ASSIGN ... CASTING in program SAPLSDTX                                .
+2026-09-29 14:26:27.795638 [06268] >> Info entry
+	throwRfcErrorMsg called at:
+	0x7FFA246CB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA246CB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA246CB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA246CB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA246CB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA246CB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA246CB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA246CB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA246CB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA246CB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA246CB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA2468C410: sapnwrfc.dll!RfcInvoke(Error in SymSetContext(): 50)
+??????	0x7FFA2720D030: python312.dll!PyArg_CheckPositional(Error in SymSetContext(): 50)
+	0x7FFA271EA7C8: python312.dll!PyObject_Call(Error in SymSetContext(): 50)
+	0x7FFA271EA7C8: python312.dll!PyObject_Call(Error in SymSetContext(): 50)
+	0x7FFA27215EB0: python312.dll!PyEval_EvalFrameDefault(Error in SymSetContext(): 50)
+	0x7FFA272145F0: python312.dll!PyFunction_Vectorcall(Error in SymSetContext(): 50)
+	0x7FFA2720D030: python312.dll!PyArg_CheckPositional(Error in SymSetContext(): 50)
+	0x7FFA271EA7C8: python312.dll!PyObject_Call(Error in SymSetContext(): 50)
+	0x7FFA271EA7C8: python312.dll!PyObject_Call(Error in SymSetContext(): 50)
+	0x7FFA27215EB0: python312.dll!PyEval_EvalFrameDefault(Error in SymSetContext(): 50)
+	0x7FFA27290520: python312.dll!PyObject_MakeTpCall(Error in SymSetContext(): 50)
+	0x7FFA2723139C: python312.dll!PyEval_EvalCode(Error in SymSetContext(): 50)
+	0x7FFA2722AB70: python312.dll!PySys_Audit(Error in SymSetContext(): 50)
+	0x7FFA2722AB70: python312.dll!PySys_Audit(Error in SymSetContext(): 50)
+	0x7FFA272A332C: python312.dll!PyDict_DelItemString(Error in SymSetContext(): 50)
+	0x7FFA272A3160: python312.dll!PyRun_SimpleFileObject(Error in SymSetContext(): 50)
+	0x7FFA272A3014: python312.dll!PyRun_AnyFileObject(Error in SymSetContext(): 50)
+	0x7FFA272A2490: python312.dll!PyObject_GenericSetDict(Error in SymSetContext(): 50)
+	0x7FFA272A2490: python312.dll!PyObject_GenericSetDict(Error in SymSetContext(): 50)
+	0x7FFA272E1C48: python312.dll!Py_RunMain(Error in SymSetContext(): 50)
+	0x7FFA272E1C48: python312.dll!Py_RunMain(Error in SymSetContext(): 50)
+	0x7FFA272E1620: python312.dll!Py_Main(Error in SymSetContext(): 50)
+???	0x7FFAA4A9CD70: KERNEL32.DLL!BaseThreadInitThunk(Error in SymSetContext(): 50)
+	0x7FFAA604CAC0: ntdll.dll!RtlUserThreadStart(Error in SymSetContext(): 50)
+
+2026-09-29 14:26:27.796610 [06268] >> Error entry
+	[Handle: 1601788820544	ConvID: 74223620	Target: SAPDEVAPP.haycohk.com.hk	SysID: DEV	SysNr: 00	User: SAPDEV	Client: 800	Language: E	Codepage: 4103]
+	RfcSystemException: Key: ASSIGN_CASTING_ILLEGAL_CAST, Code: RFC_ABAP_RUNTIME_FAILURE, Message: Error with ASSIGN ... CASTING in program SAPLSDTX                                .
+2026-09-29 14:27:35.269481 [06268] >> Info entry
+	throwRfcErrorMsg called at:
+	0x7FFA246CB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA246CB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA246CB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA246CB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA246CB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA246CB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA2468C410: sapnwrfc.dll!RfcInvoke(Error in SymSetContext(): 50)
+??????	0x7FFA2720D030: python312.dll!PyArg_CheckPositional(Error in SymSetContext(): 50)
+	0x7FFA271EA7C8: python312.dll!PyObject_Call(Error in SymSetContext(): 50)
+	0x7FFA271EA7C8: python312.dll!PyObject_Call(Error in SymSetContext(): 50)
+	0x7FFA27215EB0: python312.dll!PyEval_EvalFrameDefault(Error in SymSetContext(): 50)
+	0x7FFA27290520: python312.dll!PyObject_MakeTpCall(Error in SymSetContext(): 50)
+	0x7FFA2723139C: python312.dll!PyEval_EvalCode(Error in SymSetContext(): 50)
+	0x7FFA2722AB70: python312.dll!PySys_Audit(Error in SymSetContext(): 50)
+	0x7FFA2722AB70: python312.dll!PySys_Audit(Error in SymSetContext(): 50)
+	0x7FFA272A332C: python312.dll!PyDict_DelItemString(Error in SymSetContext(): 50)
+	0x7FFA272A3160: python312.dll!PyRun_SimpleFileObject(Error in SymSetContext(): 50)
+	0x7FFA272A3014: python312.dll!PyRun_AnyFileObject(Error in SymSetContext(): 50)
+	0x7FFA272A2490: python312.dll!PyObject_GenericSetDict(Error in SymSetContext(): 50)
+	0x7FFA272A2490: python312.dll!PyObject_GenericSetDict(Error in SymSetContext(): 50)
+	0x7FFA272E1C48: python312.dll!Py_RunMain(Error in SymSetContext(): 50)
+	0x7FFA272E1C48: python312.dll!Py_RunMain(Error in SymSetContext(): 50)
+	0x7FFA272E1620: python312.dll!Py_Main(Error in SymSetContext(): 50)
+???	0x7FFAA4A9CD70: KERNEL32.DLL!BaseThreadInitThunk(Error in SymSetContext(): 50)
+	0x7FFAA604CAC0: ntdll.dll!RtlUserThreadStart(Error in SymSetContext(): 50)
+
+2026-09-29 14:29:11.135108 [06268] >> Info entry
+	throwRfcErrorMsg called at:
+	0x7FFA246CB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA246CB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA246CB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA246CB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA246CB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA246CB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA246CB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA246CB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA246CB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA246CB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA246CB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA2468C410: sapnwrfc.dll!RfcInvoke(Error in SymSetContext(): 50)
+??????	0x7FFA2720D030: python312.dll!PyArg_CheckPositional(Error in SymSetContext(): 50)
+	0x7FFA271EA7C8: python312.dll!PyObject_Call(Error in SymSetContext(): 50)
+	0x7FFA271EA7C8: python312.dll!PyObject_Call(Error in SymSetContext(): 50)
+	0x7FFA27215EB0: python312.dll!PyEval_EvalFrameDefault(Error in SymSetContext(): 50)
+	0x7FFA272145F0: python312.dll!PyFunction_Vectorcall(Error in SymSetContext(): 50)
+	0x7FFA2720D030: python312.dll!PyArg_CheckPositional(Error in SymSetContext(): 50)
+	0x7FFA271EA7C8: python312.dll!PyObject_Call(Error in SymSetContext(): 50)
+	0x7FFA271EA7C8: python312.dll!PyObject_Call(Error in SymSetContext(): 50)
+	0x7FFA27215EB0: python312.dll!PyEval_EvalFrameDefault(Error in SymSetContext(): 50)
+	0x7FFA27290520: python312.dll!PyObject_MakeTpCall(Error in SymSetContext(): 50)
+	0x7FFA2723139C: python312.dll!PyEval_EvalCode(Error in SymSetContext(): 50)
+	0x7FFA2722AB70: python312.dll!PySys_Audit(Error in SymSetContext(): 50)
+	0x7FFA2722AB70: python312.dll!PySys_Audit(Error in SymSetContext(): 50)
+	0x7FFA272A332C: python312.dll!PyDict_DelItemString(Error in SymSetContext(): 50)
+	0x7FFA272A3160: python312.dll!PyRun_SimpleFileObject(Error in SymSetContext(): 50)
+	0x7FFA272A3014: python312.dll!PyRun_AnyFileObject(Error in SymSetContext(): 50)
+	0x7FFA272A2490: python312.dll!PyObject_GenericSetDict(Error in SymSetContext(): 50)
+	0x7FFA272A2490: python312.dll!PyObject_GenericSetDict(Error in SymSetContext(): 50)
+	0x7FFA272E1C48: python312.dll!Py_RunMain(Error in SymSetContext(): 50)
+	0x7FFA272E1C48: python312.dll!Py_RunMain(Error in SymSetContext(): 50)
+	0x7FFA272E1620: python312.dll!Py_Main(Error in SymSetContext(): 50)
+???	0x7FFAA4A9CD70: KERNEL32.DLL!BaseThreadInitThunk(Error in SymSetContext(): 50)
+	0x7FFAA604CAC0: ntdll.dll!RtlUserThreadStart(Error in SymSetContext(): 50)
+
+2026-09-29 14:29:11.136030 [06268] >> Error entry
+	[Handle: 1601787562160	ConvID: 74397988	Target: SAPDEVAPP.haycohk.com.hk	SysID: DEV	SysNr: 00	User: SAPDEV	Client: 800	Language: E	Codepage: 4103]
+	RfcSystemException: Key: SAPSQL_PARSE_ERROR, Code: RFC_ABAP_RUNTIME_FAILURE, Message: An error has occurred while parsing a dynamic entry.
+2026-09-29 14:37:59.783045 [06268] >> Info entry
+	throwRfcErrorMsg called at:
+	0x7FFA246CB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA246CB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA246CB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA246CB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA246CB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA246CB970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FFA2468C410: sapnwrfc.dll!RfcInvoke(Error in SymSetContext(): 50)
+??????	0x7FFA2720D030: python312.dll!PyArg_CheckPositional(Error in SymSetContext(): 50)
+	0x7FFA271EA7C8: python312.dll!PyObject_Call(Error in SymSetContext(): 50)
+	0x7FFA271EA7C8: python312.dll!PyObject_Call(Error in SymSetContext(): 50)
+	0x7FFA27215EB0: python312.dll!PyEval_EvalFrameDefault(Error in SymSetContext(): 50)
+	0x7FFA27290520: python312.dll!PyObject_MakeTpCall(Error in SymSetContext(): 50)
+	0x7FFA2723139C: python312.dll!PyEval_EvalCode(Error in SymSetContext(): 50)
+	0x7FFA2722AB70: python312.dll!PySys_Audit(Error in SymSetContext(): 50)
+	0x7FFA2722AB70: python312.dll!PySys_Audit(Error in SymSetContext(): 50)
+	0x7FFA272A332C: python312.dll!PyDict_DelItemString(Error in SymSetContext(): 50)
+	0x7FFA272A3160: python312.dll!PyRun_SimpleFileObject(Error in SymSetContext(): 50)
+	0x7FFA272A3014: python312.dll!PyRun_AnyFileObject(Error in SymSetContext(): 50)
+	0x7FFA272A2490: python312.dll!PyObject_GenericSetDict(Error in SymSetContext(): 50)
+	0x7FFA272A2490: python312.dll!PyObject_GenericSetDict(Error in SymSetContext(): 50)
+	0x7FFA272E1C48: python312.dll!Py_RunMain(Error in SymSetContext(): 50)
+	0x7FFA272E1C48: python312.dll!Py_RunMain(Error in SymSetContext(): 50)
+	0x7FFA272E1620: python312.dll!Py_Main(Error in SymSetContext(): 50)
+???	0x7FFAA4A9CD70: KERNEL32.DLL!BaseThreadInitThunk(Error in SymSetContext(): 50)
+	0x7FFAA604CAC0: ntdll.dll!RtlUserThreadStart(Error in SymSetContext(): 50)
+
+
+**** Log file opened at 2026-09-29 16:48:35.047180 UTC+08:00 (中国标准时间), Encoding UTF-8
+NW RFC Library: SDK variant, Release 750 Patch Level 18
+Compilation date          : Dec  1 2025 21:35:24
+CPIC library              : 754.2025.08.18 version 3
+NI library                : 40
+Kernel Release            : 754 Patch Level 627
+Current working directory : D:\deepseek-harness
+Program                   : python
+Process ID                : 15832
+User                      : whter
+Hardware                  : PC with Windows NT 8x AMD64 Level 6 (Mod 142 Step 12)
+Binary Type               : 64bit
+Operating_system          : Windows NT 10.0
+Hostname                  : FLL
+IP address                : 192.168.127.13
+IPv6 address              : fe80::3523:c6e4:20aa:e955
+NI IPv6 status            : inactive
+Global trace level        : 0 : None
+
+2026-09-29 16:48:35.045778 [17376] >> Error entry
+	[Handle: 2694318940208	ConvID: 	Target: 	SysID: 	SysNr: 	User: 	Codepage: 4103]
+	RfcCommunicationException: Return Value: 20, Code: RFC_COMMUNICATION_FAILURE, Message: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '192.168.152.194:3300' not reached
+TIME        Tue Sep 29 16:48:35 2026
+RELEASE     754
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      D:/depot/bas/754_REL/src/base/ni/nixxi.cpp
+LINE        3458
+DETAIL      NiPConnect2: 192.168.152.194:3300
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     5
+
+
+**** Log file opened at 2026-09-30 10:26:21.985405 UTC+08:00 (中国标准时间), Encoding UTF-8
+NW RFC Library: SDK variant, Release 750 Patch Level 18
+Compilation date          : Dec  1 2025 21:35:24
+CPIC library              : 754.2025.08.18 version 3
+NI library                : 40
+Kernel Release            : 754 Patch Level 627
+Current working directory : D:\deepseek-harness
+Program                   : python
+Process ID                : 27212
+User                      : whter
+Hardware                  : PC with Windows NT 8x AMD64 Level 6 (Mod 142 Step 12)
+Binary Type               : 64bit
+Operating_system          : Windows NT 10.0
+Hostname                  : FLL
+IP address                : 192.168.127.11
+IPv6 address              : fe80::3523:c6e4:20aa:e955
+NI IPv6 status            : inactive
+Global trace level        : 0 : None
+
+2026-09-30 10:26:21.983860 [18848] >> Info entry
+	throwRfcErrorMsg called at:
+	0x7FF97774B970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FF97774B970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FF97774B970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FF97774B970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FF97774B970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FF97774B970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FF97774B970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FF97774B970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FF97774B970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FF97774B970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FF97774B970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FF97770C410: sapnwrfc.dll!RfcInvoke(Error in SymSetContext(): 50)
+??????	0x7FF9B1E6D030: python312.dll!PyArg_CheckPositional(Error in SymSetContext(): 50)
+	0x7FF9B1E4A7C8: python312.dll!PyObject_Call(Error in SymSetContext(): 50)
+	0x7FF9B1E4A7C8: python312.dll!PyObject_Call(Error in SymSetContext(): 50)
+	0x7FF9B1E75EB0: python312.dll!PyEval_EvalFrameDefault(Error in SymSetContext(): 50)
+	0x7FF9B1E745F0: python312.dll!PyFunction_Vectorcall(Error in SymSetContext(): 50)
+	0x7FF9B1E6D030: python312.dll!PyArg_CheckPositional(Error in SymSetContext(): 50)
+	0x7FF9B1E4A7C8: python312.dll!PyObject_Call(Error in SymSetContext(): 50)
+	0x7FF9B1E4A7C8: python312.dll!PyObject_Call(Error in SymSetContext(): 50)
+	0x7FF9B1E75EB0: python312.dll!PyEval_EvalFrameDefault(Error in SymSetContext(): 50)
+	0x7FF9B1EF0520: python312.dll!PyObject_MakeTpCall(Error in SymSetContext(): 50)
+	0x7FF9B1E9139C: python312.dll!PyEval_EvalCode(Error in SymSetContext(): 50)
+	0x7FF9B1E8AB70: python312.dll!PySys_Audit(Error in SymSetContext(): 50)
+	0x7FF9B1E8AB70: python312.dll!PySys_Audit(Error in SymSetContext(): 50)
+	0x7FF9B1F0332C: python312.dll!PyDict_DelItemString(Error in SymSetContext(): 50)
+	0x7FF9B1F03160: python312.dll!PyRun_SimpleFileObject(Error in SymSetContext(): 50)
+	0x7FF9B1F03014: python312.dll!PyRun_AnyFileObject(Error in SymSetContext(): 50)
+	0x7FF9B1F02490: python312.dll!PyObject_GenericSetDict(Error in SymSetContext(): 50)
+	0x7FF9B1F02490: python312.dll!PyObject_GenericSetDict(Error in SymSetContext(): 50)
+	0x7FF9B1F41C48: python312.dll!Py_RunMain(Error in SymSetContext(): 50)
+	0x7FF9B1F41C48: python312.dll!Py_RunMain(Error in SymSetContext(): 50)
+	0x7FF9B1F41620: python312.dll!Py_Main(Error in SymSetContext(): 50)
+???	0x7FFAA4A9CD70: KERNEL32.DLL!BaseThreadInitThunk(Error in SymSetContext(): 50)
+	0x7FFAA604CAC0: ntdll.dll!RtlUserThreadStart(Error in SymSetContext(): 50)
+
+2026-09-30 10:26:22.152451 [18848] >> Error entry
+	[Handle: 2721127760544	ConvID: 45763747	Target: SAPDEVAPP.haycohk.com.hk	SysID: DEV	SysNr: 00	User: SAPDEV	Client: 800	Language: E	Codepage: 4103]
+	RfcSystemException: Key: SAPSQL_PARSE_ERROR, Code: RFC_ABAP_RUNTIME_FAILURE, Message: An error has occurred while parsing a dynamic entry.
+2026-09-30 10:26:30.894552 [18848] >> Info entry
+	throwRfcErrorMsg called at:
+	0x7FF97774B970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FF97774B970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FF97774B970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FF97774B970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FF97774B970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FF97774B970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FF97774B970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FF97774B970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FF97774B970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FF97774B970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FF97774B970: sapnwrfc.dll!RfcSetAbapObjectByIndex(Error in SymSetContext(): 50)
+	0x7FF97770C410: sapnwrfc.dll!RfcInvoke(Error in SymSetContext(): 50)
+??????	0x7FF9B1E6D030: python312.dll!PyArg_CheckPositional(Error in SymSetContext(): 50)
+	0x7FF9B1E4A7C8: python312.dll!PyObject_Call(Error in SymSetContext(): 50)
+	0x7FF9B1E4A7C8: python312.dll!PyObject_Call(Error in SymSetContext(): 50)
+	0x7FF9B1E75EB0: python312.dll!PyEval_EvalFrameDefault(Error in SymSetContext(): 50)
+	0x7FF9B1E745F0: python312.dll!PyFunction_Vectorcall(Error in SymSetContext(): 50)
+	0x7FF9B1E6D030: python312.dll!PyArg_CheckPositional(Error in SymSetContext(): 50)
+	0x7FF9B1E4A7C8: python312.dll!PyObject_Call(Error in SymSetContext(): 50)
+	0x7FF9B1E4A7C8: python312.dll!PyObject_Call(Error in SymSetContext(): 50)
+	0x7FF9B1E75EB0: python312.dll!PyEval_EvalFrameDefault(Error in SymSetContext(): 50)
+	0x7FF9B1EF0520: python312.dll!PyObject_MakeTpCall(Error in SymSetContext(): 50)
+	0x7FF9B1E9139C: python312.dll!PyEval_EvalCode(Error in SymSetContext(): 50)
+	0x7FF9B1E8AB70: python312.dll!PySys_Audit(Error in SymSetContext(): 50)
+	0x7FF9B1E8AB70: python312.dll!PySys_Audit(Error in SymSetContext(): 50)
+	0x7FF9B1F0332C: python312.dll!PyDict_DelItemString(Error in SymSetContext(): 50)
+	0x7FF9B1F03160: python312.dll!PyRun_SimpleFileObject(Error in SymSetContext(): 50)
+	0x7FF9B1F03014: python312.dll!PyRun_AnyFileObject(Error in SymSetContext(): 50)
+	0x7FF9B1F02490: python312.dll!PyObject_GenericSetDict(Error in SymSetContext(): 50)
+	0x7FF9B1F02490: python312.dll!PyObject_GenericSetDict(Error in SymSetContext(): 50)
+	0x7FF9B1F41C48: python312.dll!Py_RunMain(Error in SymSetContext(): 50)
+	0x7FF9B1F41C48: python312.dll!Py_RunMain(Error in SymSetContext(): 50)
+	0x7FF9B1F41620: python312.dll!Py_Main(Error in SymSetContext(): 50)
+???	0x7FFAA4A9CD70: KERNEL32.DLL!BaseThreadInitThunk(Error in SymSetContext(): 50)
+	0x7FFAA604CAC0: ntdll.dll!RtlUserThreadStart(Error in SymSetContext(): 50)
+
+2026-09-30 10:26:30.895927 [18848] >> Error entry
+	[Handle: 2721205647104	ConvID: 45776655	Target: SAPDEVAPP.haycohk.com.hk	SysID: DEV	SysNr: 00	User: SAPDEV	Client: 800	Language: E	Codepage: 4103]
+	RfcSystemException: Key: SAPSQL_PARSE_ERROR, Code: RFC_ABAP_RUNTIME_FAILURE, Message: An error has occurred while parsing a dynamic entry.
